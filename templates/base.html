@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %} - мой блог</title>
+</head>
+<body>
+    <a href="/">Главная</a>
+    <a href="/contacts">Как со мной связаться</a>
+    <a href="/publications">Публикации</a>
+
+    {% block content %} {% endblock %}
+</body>
+</html>
